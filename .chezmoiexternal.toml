@@ -14,8 +14,8 @@
     type = "file"
     url = "https://raw.githubusercontent.com/jonmosco/kube-ps1/master/kube-ps1.sh"
     refreshPeriod = "168h"
-[".test/.bashrc.d/diff-so-fancy"]
+[".test/.local/bin/diff-so-fancy"]
     type = "file"
-    url = "https://raw.githubusercontent.com/"
+    url = "https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/diff-so-fancy"
     refreshPeriod = "168h"
-
+    executable = true
